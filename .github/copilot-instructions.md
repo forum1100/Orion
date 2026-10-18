@@ -19,3 +19,7 @@ No GitHub integration may become mandatory for Orion startup or its Google Drive
 ## Cross-provider read-first contract
 
 Also read [../AGENTS.md](../AGENTS.md), [../docs/START_HERE.md](../docs/START_HERE.md), and [../docs/TERMINOLOGY.md](../docs/TERMINOLOGY.md). These define the common ChatGPT/Gemini/Grok/Orion language and contribution receipts. Report the actual authenticated GitHub actor separately from the proposing AI model. Do not self-certify or auto-promote releases.
+
+## No invented security restrictions
+
+Before editing governance, safety, permission or capability descriptions, read [../docs/OWNER_AUTHORITY_AND_SAFETY_PROVENANCE.md](../docs/OWNER_AUTHORITY_AND_SAFETY_PROVENANCE.md). AI-generated warnings and provider tool limits are not constitutional Orion rules. Preserve broad capabilities and durable owner-authorized grants, document actual blockers and maintain the original recursive safety/provenance machinery without unapproved capability deletions.

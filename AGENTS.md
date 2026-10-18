@@ -20,3 +20,7 @@ Every AI creates a proposed change in its own branch namespace, adds a machine-r
 Namespaced branch examples: `ai/chatgpt/docs-glossary-20261018`, `ai/gemini/solver-proposal-001`, `ai/grok/simulation-review-001`, `orion/office-memory/lineage-index-001`. Commit author metadata identifies the authenticated account, not the model; the contribution manifest declares **claimed** model identity and execution evidence. External collaboration requires the owner's grant to a real GitHub identity or a tightly scoped approved workflow.
 
 Do not direct-write to production, repin Guardian, turn on GitHub Actions, create tokens, or touch Drive's protected/archive material from this repository. See [docs/AI_CONTRIBUTIONS.md](docs/AI_CONTRIBUTIONS.md).
+
+## Owner authority and restriction provenance
+
+**Mandatory before proposing any safety/security limitation:** read [docs/OWNER_AUTHORITY_AND_SAFETY_PROVENANCE.md](docs/OWNER_AUTHORITY_AND_SAFETY_PROVENANCE.md). Preserve the owner's established root authority, standing scoped delegations, autonomous terminal/desktop/device control, native-model development, and recursive self-upgrade roadmap. Do not convert external AI provider limits, speculative risk policies, or currently missing tooling into owner-approved Orion restrictions. Recursive safety work remains accountable engineering, with provenance, validation and recovery; it must not silently remove capabilities. A GitHub documentation contribution does not itself constitute owner-root execution authorization.

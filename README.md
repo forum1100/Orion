@@ -42,3 +42,5 @@ The checked-in example is new, synthetic and explicitly **not** a historical or 
 ## Recovery status (source inventories, not a completion claim)
 
 The [source recovery coverage dashboard](docs/RECOVERY_COVERAGE.md) links **184 source-faithful research files** and **349 public-safe historical Orion checkpoint files** with SHA-256 manifests. Another 110 committed Orion files are recorded but intentionally held for additional review. Real and reconstructed BBN lithium calculations, negative AlterBBN successor results, tests and four pairs of PNG/SVG figures are explained in the [BBN case study](docs/BBN_CASE_STUDY.md). The [DT_CLOSEOUT reconciliation crosswalk](docs/GOOGLE_CLOSEOUT_RECOVERY_AUDIT.md) distinguishes the frozen Google source from subsequent analysis. No closeout task or live Orion production deployment is implied by this publication.
+
+**Owner-authority and safety-provenance contract:** [Read the policy distinguishing owner grants, actual engineering safety, and external AI/tool limitations](docs/OWNER_AUTHORITY_AND_SAFETY_PROVENANCE.md). An external assistant's temporary restriction is not an Orion architecture requirement.
