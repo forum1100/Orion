@@ -1,0 +1,42 @@
+{
+  "contribution_id": "ORION-CHATGPT-BASELINE-20261018",
+  "provider": "OpenAI",
+  "model": "GPT-6",
+  "proposer_kind": "AI",
+  "actor_identity_class": "CHATGPT_MODEL_WITH_USER_REQUEST",
+  "authenticated_github_actor": "forum1100",
+  "timestamp_utc": "2026-10-18T20:32:15Z",
+  "task_id": "public-orion-technical-knowledge-baseline",
+  "purpose": "Make cross-provider Orion architecture, glossary, source provenance, Git history recovery and reproducible examples understandable to other AIs and humans.",
+  "source_refs": [
+    "docs/SOURCES.md",
+    "https://github.com/forum1100/Distel-Theory-Research",
+    "https://github.com/forum1100/DT-Desktop-Suite"
+  ],
+  "changed_paths": [
+    "AGENTS.md", "docs/START_HERE.md", "docs/ARCHITECTURE.md",
+    "docs/COMPONENTS.md", "docs/TERMINOLOGY.md", "docs/AI_CONTRIBUTIONS.md",
+    "docs/PROVENANCE.md", "docs/GIT_RECOVERY.md", "docs/EQUATIONS.md",
+    "docs/SIMULATIONS.md", "docs/SOURCES.md", "simulations/recovery_toy.py",
+    "tests/test_recovery_toy.py", "schemas/contribution.schema.json",
+    "runs/2026-10-18-reference-toy.json"
+  ],
+  "expected_behavior": "A third-party model can locate authoritative definitions, identify provenance and evidence tiers, run a tiny synthetic test, and distinguish historical code from example code.",
+  "implementation_status": "ISOLATED_TESTED",
+  "tests": [
+    {"command": "python -m unittest discover -s tests -v", "passed": 6, "failed": 0}
+  ],
+  "observations": [
+    "The generated toy preserves one failing and one passing candidate.",
+    "Git history recovery remains incomplete; 26 local commits are beyond the old remote main."
+  ],
+  "failures": [
+    "Earlier GitHub plugin contents writes returned HTTP 403; owner-authorized Git CLI used.",
+    "Historical Google recovered source inventory is incomplete and must not be silently promoted to current production."
+  ],
+  "commit_sha": null,
+  "run_hash": "260cf1987d2416e4d352898fa9182bf40b960c55fc143c1a486319ddbc4c4995",
+  "reviewer_status": "PR_REVIEW_PENDING",
+  "approval_proof_ref": null,
+  "notes": "AI proposed content; desktop Git CLI used owner's authenticated GitHub account for publication. Timestamp is workflow anchor, not a verified second-level capture of every file write."
+}

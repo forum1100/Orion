@@ -35,3 +35,9 @@ credentials/
 secrets/
 recordings/
 recovery-private/
+
+# Python reference-run caches and generated binaries
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

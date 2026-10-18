@@ -1,0 +1,29 @@
+{
+  "run_id": "orion-reference-toy-2026-10-18-01",
+  "source_class": "NEW_DOCUMENTATION_RECONSTRUCTION",
+  "historical_orion_run": false,
+  "provider": "openai-chatgpt",
+  "model": "GPT-6",
+  "executor": "owner-authorized-remote-desktop-git-cli",
+  "date": "2026-10-18",
+  "platform": "Windows / CoffeeMaker3737",
+  "python_version": "3.13.15",
+  "script": "simulations/recovery_toy.py",
+  "command": "python simulations/recovery_toy.py",
+  "stdout_file": "runs/2026-10-18-reference-toy.json",
+  "stdout_sha256_on_execution_host": "260cf1987d2416e4d352898fa9182bf40b960c55fc143c1a486319ddbc4c4995",
+  "test_command": "python -m unittest discover -s tests -v",
+  "test_count": 6,
+  "tests_passed": 6,
+  "test_exit_code": 0,
+  "generated_result_exit_code": 0,
+  "expected": {"candidate_biased": "FAILED_PRESERVED", "candidate_calibrated": "ISOLATED_TOY_PASS"},
+  "actual": {"candidate_biased": "FAILED_PRESERVED", "candidate_calibrated": "ISOLATED_TOY_PASS"},
+  "threshold": 0.25,
+  "independent_validation": false,
+  "orion_production_deployed": false,
+  "residuals": [
+    "No independent data or physical-science interpretation.",
+    "Raw stdout SHA is for Windows execution-host bytes; tracked git normalization may change byte hash."
+  ]
+}

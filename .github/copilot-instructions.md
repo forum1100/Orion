@@ -15,3 +15,7 @@ Orion is a **free** AI desktop platform provided by **Distel Axiom Dynamics**. V
 **Working method:** inspect repo state; formulate scoped changes; prefer small branches and PRs; test with documented local commands; save artifacts and evidence; provide a concise change summary with residuals and verification steps. Do not force-push, delete historical commits, leak credentials, silently modify runtime authorization, or grant a bot broad permissions.
 
 No GitHub integration may become mandatory for Orion startup or its Google Drive memory continuity. See [DEVELOPMENT_AND_DISCONNECT.md](../DEVELOPMENT_AND_DISCONNECT.md).
+
+## Cross-provider read-first contract
+
+Also read [../AGENTS.md](../AGENTS.md), [../docs/START_HERE.md](../docs/START_HERE.md), and [../docs/TERMINOLOGY.md](../docs/TERMINOLOGY.md). These define the common ChatGPT/Gemini/Grok/Orion language and contribution receipts. Report the actual authenticated GitHub actor separately from the proposing AI model. Do not self-certify or auto-promote releases.

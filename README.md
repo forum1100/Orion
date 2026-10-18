@@ -30,3 +30,10 @@ Orion is in active development, not presented as a finished or independently cer
 - [GitHub / Google Drive coexistence and disconnect plan](DEVELOPMENT_AND_DISCONNECT.md)
 
 GitHub Actions is disabled by default for this project. No recurring third-party automation, API bill, or paid wrapper is authorized by repository participation.
+
+
+## Orion architecture, source evidence and multi-AI collaboration
+
+The public technical handbook begins at **[docs/START_HERE.md](docs/START_HERE.md)**. It includes plain-language explanations of the modules, mathematical conventions and assumptions, a living term crosswalk, provenance/failed-run preservation, the historical Git divergence, and a reproducible local example. The provider-neutral **[AGENTS.md](AGENTS.md)** tells ChatGPT, Gemini, Grok and new collaborators how to contribute without claiming permissions they do not possess.
+
+The checked-in example is new, synthetic and explicitly **not** a historical or production Orion run. The complete source/memory recovery and audit of September–October local branches remain open tasks.

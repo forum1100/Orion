@@ -1,0 +1,23 @@
+{
+  "contribution_id": "EXAMPLE-REVIEW-001",
+  "provider": "illustrative",
+  "model": null,
+  "proposer_kind": "UNKNOWN",
+  "actor_identity_class": "UNVERIFIED_EXAMPLE",
+  "authenticated_github_actor": null,
+  "timestamp_utc": "2026-10-18T20:15:00Z",
+  "task_id": "onboarding-example",
+  "purpose": "Demonstrate how to attribute a proposed change without pretending a model or user has authenticated.",
+  "source_refs": ["docs/AI_CONTRIBUTIONS.md"],
+  "changed_paths": ["contributions/EXAMPLE.json"],
+  "expected_behavior": "Schema readers can classify the author as an unauthenticated example.",
+  "implementation_status": "PROPOSED",
+  "tests": [],
+  "observations": [],
+  "failures": [],
+  "commit_sha": null,
+  "run_hash": null,
+  "reviewer_status": "NOT_SUBMITTED",
+  "approval_proof_ref": null,
+  "notes": "EXAMPLE ONLY. Do not treat as a real Gemini, Grok, or ChatGPT contribution."
+}

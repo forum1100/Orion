@@ -1,0 +1,76 @@
+{
+  "branches": [
+    {
+      "branch_id": "candidate_biased",
+      "deployment_status": "NOT_DEPLOYED",
+      "mae": 0.65,
+      "note": "Toy metric only; cannot prove an Orion or scientific safety result.",
+      "outcomes": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "prediction": [
+        0.9,
+        0.8,
+        0.1,
+        0.2
+      ],
+      "status": "FAILED_PRESERVED"
+    },
+    {
+      "branch_id": "candidate_calibrated",
+      "deployment_status": "NOT_DEPLOYED",
+      "mae": 0.15,
+      "note": "Toy metric only; cannot prove an Orion or scientific safety result.",
+      "outcomes": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "prediction": [
+        0.9,
+        0.2,
+        0.8,
+        0.9
+      ],
+      "status": "ISOLATED_TOY_PASS"
+    }
+  ],
+  "equation": "MAE = sum(abs(prediction_i - observed_i)) / n",
+  "evidence_sha256": "da141dcc0cbd7dde6c1cb35d5315308e67c87efc39934247df7c05c6bea20518",
+  "historical_execution": false,
+  "independent_validation": false,
+  "input": {
+    "observations": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "predictions": {
+      "candidate_biased": [
+        0.9,
+        0.8,
+        0.1,
+        0.2
+      ],
+      "candidate_calibrated": [
+        0.9,
+        0.2,
+        0.8,
+        0.9
+      ]
+    },
+    "source_class": "GENERATED_TOY_EXAMPLE",
+    "threshold": 0.25
+  },
+  "model_id": "orion-provenance-prediction-toy-v1",
+  "residuals": [
+    "Toy observations and forecasts were manually selected.",
+    "No external dataset, independent test or live Orion integration."
+  ],
+  "source_class": "NEW_DOCUMENTATION_RECONSTRUCTION"
+}

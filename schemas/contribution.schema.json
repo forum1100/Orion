@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Orion AI/human contribution provenance",
+  "description": "Metadata requirements; validated separately from authenticated GitHub permissions.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contribution_id", "provider", "model", "proposer_kind", "timestamp_utc", "task_id", "purpose", "source_refs", "changed_paths", "expected_behavior", "implementation_status", "tests", "failures", "reviewer_status"],
+  "properties": {
+    "contribution_id": {"type": "string", "minLength": 6},
+    "provider": {"type": "string", "minLength": 2},
+    "model": {"type": ["string", "null"]},
+    "proposer_kind": {"enum": ["AI", "HUMAN", "ORION_AGENT", "UNKNOWN"]},
+    "actor_identity_class": {"type": "string"},
+    "authenticated_github_actor": {"type": ["string", "null"]},
+    "timestamp_utc": {"type": "string", "format": "date-time"},
+    "task_id": {"type": "string"},
+    "purpose": {"type": "string"},
+    "source_refs": {"type": "array", "items": {"type": "string"}},
+    "changed_paths": {"type": "array", "items": {"type": "string"}},
+    "expected_behavior": {"type": "string"},
+    "implementation_status": {"enum": ["PROPOSED", "REVIEWABLE", "ISOLATED_TESTED", "QUALIFIED", "TRAINING", "DEPLOYED_VERIFIED", "FAILED_PRESERVED", "BLOCKED"]},
+    "tests": {"type": "array", "items": {"type": "object"}},
+    "observations": {"type": "array", "items": {"type": "string"}},
+    "failures": {"type": "array", "items": {"type": "string"}},
+    "commit_sha": {"type": ["string", "null"]},
+    "run_hash": {"type": ["string", "null"]},
+    "reviewer_status": {"type": "string"},
+    "approval_proof_ref": {"type": ["string", "null"]},
+    "notes": {"type": "string"}
+  }
+}
