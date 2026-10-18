@@ -20,3 +20,13 @@ During development, GitHub is a public source/version-control and review channel
 ## Project status and licensing
 
 Orion is in active development, not presented as a finished or independently certified AI security product. The detailed copyright license governing modification, redistribution, and derivative distribution is still to be selected; publishing the source and making Orion free to use does not by itself settle every reuse right. Donations are optional, not a licensing fee.
+
+
+## Development roadmap and cost controls
+
+- [Project roadmap](docs/roadmap.md)
+- [Zero-surprise-cost policy](COST_AND_AUTOMATION_POLICY.md)
+- [Repository agent instructions](.github/copilot-instructions.md)
+- [GitHub / Google Drive coexistence and disconnect plan](DEVELOPMENT_AND_DISCONNECT.md)
+
+GitHub Actions is disabled by default for this project. No recurring third-party automation, API bill, or paid wrapper is authorized by repository participation.
