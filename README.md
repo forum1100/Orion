@@ -37,3 +37,8 @@ GitHub Actions is disabled by default for this project. No recurring third-party
 The public technical handbook begins at **[docs/START_HERE.md](docs/START_HERE.md)**. It includes plain-language explanations of the modules, mathematical conventions and assumptions, a living term crosswalk, provenance/failed-run preservation, the historical Git divergence, and a reproducible local example. The provider-neutral **[AGENTS.md](AGENTS.md)** tells ChatGPT, Gemini, Grok and new collaborators how to contribute without claiming permissions they do not possess.
 
 The checked-in example is new, synthetic and explicitly **not** a historical or production Orion run. The complete source/memory recovery and audit of September–October local branches remain open tasks.
+
+
+## Recovery status (source inventories, not a completion claim)
+
+The [source recovery coverage dashboard](docs/RECOVERY_COVERAGE.md) links **184 source-faithful research files** and **349 public-safe historical Orion checkpoint files** with SHA-256 manifests. Another 110 committed Orion files are recorded but intentionally held for additional review. Real and reconstructed BBN lithium calculations, negative AlterBBN successor results, tests and four pairs of PNG/SVG figures are explained in the [BBN case study](docs/BBN_CASE_STUDY.md). The [DT_CLOSEOUT reconciliation crosswalk](docs/GOOGLE_CLOSEOUT_RECOVERY_AUDIT.md) distinguishes the frozen Google source from subsequent analysis. No closeout task or live Orion production deployment is implied by this publication.

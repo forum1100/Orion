@@ -1,0 +1,46 @@
+{
+  "schema": "DT_CLOSEOUT_HISTORICAL_RECONCILIATION_v1",
+  "generated_date": "2026-09-09",
+  "scope": "private-source audit evidence only; no private payloads included",
+  "canonical_sources_verified": [
+    {"file":"conversations-004.json","bytes":31446551,"sha256":"a26ecbb674537afe7310b200a6371a4ce733f9b97b940887aed2ecda0b1d581a"},
+    {"file":"conversations-005.json","bytes":41917711,"sha256":"9f280c784fad5761b8e2dbcd11da01b71d5063049190eb6fe59c43f83572a7bc"}
+  ],
+  "conversation_results": [
+    {
+      "conversation_id":"69d0917c-c744-8333-92a2-373aa5190719",
+      "source_file":"conversations-004.json","source_index":7,
+      "canonical_records":18,"live_suffix_records":4,
+      "status":"EXACT_CANONICAL_RECORD_AGREEMENT",
+      "full_record_digest":"72698d6420aa043dd68930bca1e232032d3c977d9a817b65d289eb1d335f24ab"
+    },
+    {
+      "conversation_id":"69fa791a-9bc4-83ea-9745-204bb303e554",
+      "source_file":"conversations-004.json","source_index":13,
+      "canonical_records":99,"live_suffix_records":0,
+      "status":"EXACT_CANONICAL_RECORD_AGREEMENT",
+      "full_record_digest":"0342ee53f1ee95d084457b04d8f103f14049eed37c7f6f699967535460ebf94d"
+    },    {
+      "conversation_id":"6a00d980-6e70-83ea-8eff-f96bd7666cfc",
+      "source_file":"conversations-004.json","source_index":34,
+      "canonical_records":28,"live_suffix_records":0,
+      "status":"INVESTIGATE_5_RECORD_NORMALIZATION_DIFFERENCES",
+      "note":"23/28 normalized compact records agree; three reasoning-recap rows and two web-enriched assistant rows differ at normalization/metadata level. No loss conclusion yet."
+    },
+    {
+      "conversation_id":"69fbc4e7-49e0-83ea-b4b0-f551e8c8ea37",
+      "source_file":"conversations-004.json","source_index":17,
+      "selected_chain_nodes":134,"visible_text_records":119,
+      "source_reasoning_recap_records":7,"source_hidden_thought_records":7,
+      "status":"OBSERVABLE_REASONING_RECAP_GAP_IDENTIFIED",
+      "note":"Historical closeout retained the seven reasoning-recap nodes structurally but classified them restricted_hidden with null text. Canonical export contains observable recap strings, so these require source-faithful repair and must remain recorded as an independent-capture gap."
+    },
+    {
+      "conversation_id":"6a558d05-0de0-83ea-97e2-4fd542ab124d",
+      "source_file":"conversations-005.json","source_index":39,
+      "mapping_nodes":197,"selected_chain_nodes":196,"off_chain_nodes":1,
+      "status":"SOURCE_STRUCTURE_CONFIRMED_CONTENT_AUDIT_PENDING"
+    }
+  ],
+  "rule":"Never upgrade a status to exact agreement from counts, titles, or structural identity alone."
+}

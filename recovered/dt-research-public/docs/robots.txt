@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://forum1100.github.io/Distel-Theory-Research/sitemap.xml

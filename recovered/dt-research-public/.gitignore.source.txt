@@ -1,0 +1,11 @@
+# Generated Python and private reconciliation material
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+reconciliation/private/
+reconciliation/**/private/
+reconciliation/**/outputs/
+reconciliation/**/raw_sources/
+reconciliation/**/conversations-*.json
+reconciliation/**/secrets/
+reconciliation/**/credentials/

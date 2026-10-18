@@ -1,0 +1,1484 @@
+{
+  "schema": "2026-10-18",
+  "source_repo": "forum1100/Distel-Theory-Research",
+  "source_commit_sha": "b5bbc45d365a2709e18b53af766c7900b332c50c",
+  "total_tracked_files": 184,
+  "copied_exact": 184,
+  "held_for_review": 0,
+  "coverage_this_public_repo": 1.0,
+  "not_entire_Orion_archive": true,
+  "files": [
+    {
+      "source_path": ".gitignore",
+      "target_path": "recovered/dt-research-public/.gitignore.source.txt",
+      "sha256": "b26d8eaad47fbd89482c110eb20b0406e2987ce0b926d2ca018e22ab935db904",
+      "size": 305,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "CITATION.cff",
+      "target_path": "recovered/dt-research-public/CITATION.cff",
+      "sha256": "d62a0a44ed35c4a0fb8bdafced248519adc826aae518d5050decc745baaccb6f",
+      "size": 914,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "FAILURES_AND_REJECTED_BRANCHES.md",
+      "target_path": "recovered/dt-research-public/FAILURES_AND_REJECTED_BRANCHES.md",
+      "sha256": "953367f098bd18fea04802f1a3e9a68322f21fcbeaf2a3a04aa6f4d1eacbf81b",
+      "size": 960,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "PUBLIC_PROPRIETARY_BOUNDARY.md",
+      "target_path": "recovered/dt-research-public/PUBLIC_PROPRIETARY_BOUNDARY.md",
+      "sha256": "91d98815c6794ab0e994e308266ef952dd3eaf8f7b6f044f30b45c6530d5adb4",
+      "size": 1090,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "README.md",
+      "target_path": "recovered/dt-research-public/README.md",
+      "sha256": "bdd906e76b323a928b06965eefe9d0fc64fec38739e3647e07178e0b8bc14ac2",
+      "size": 2600,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "SCIENTIFIC_STATUS.md",
+      "target_path": "recovered/dt-research-public/SCIENTIFIC_STATUS.md",
+      "sha256": "b105d27d0bc86ba2d8953e68e3d3487b9851009a76d8a7c50b726c7e9e772e40",
+      "size": 1234,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "applications/CIVILIZATION_SYSTEMS.md",
+      "target_path": "recovered/dt-research-public/applications/CIVILIZATION_SYSTEMS.md",
+      "sha256": "5c0e0e0b46ee0faeb2a70854b37865b7cd8c77678179caa54203b9e1490b1aef",
+      "size": 1361,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "applications/PRISM_DEFENSE.md",
+      "target_path": "recovered/dt-research-public/applications/PRISM_DEFENSE.md",
+      "sha256": "0712ca3d47f47708c1eb73c1dbc3948ef7f84971b1a829f905f3ea2afbce868b",
+      "size": 1376,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "applications/PROPULSION_CONSERVATION.md",
+      "target_path": "recovered/dt-research-public/applications/PROPULSION_CONSERVATION.md",
+      "sha256": "9c5e917917e74f1b147bee0c931db52053543d4a64449d1d773f5af9eff91c1b",
+      "size": 1078,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "applications/README.md",
+      "target_path": "recovered/dt-research-public/applications/README.md",
+      "sha256": "e7619865253775d649c7f0272ec61c93e36a4c47d6ae3eee6ce33e547a8c8523",
+      "size": 1371,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/.nojekyll",
+      "target_path": "recovered/dt-research-public/docs/.nojekyll.source.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/DEPENDENCY_LICENSES.md",
+      "target_path": "recovered/dt-research-public/docs/DEPENDENCY_LICENSES.md",
+      "sha256": "7d1fd899bcc9fedfd568fef906a8eb95a536ab12cbc51e3f50793c1b69385736",
+      "size": 975,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/about.html",
+      "target_path": "recovered/dt-research-public/docs/about.html",
+      "sha256": "c51d1af6d48dfd6f6eee9f79ebbdcbb8998ffd3ca819f8e04eae60a7720e94ed",
+      "size": 2795,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/index.html",
+      "target_path": "recovered/dt-research-public/docs/index.html",
+      "sha256": "0c0b018838c56a72c332e6ee6acb7364f9b318ac3288e87da1aff7913cf19084",
+      "size": 6303,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/platform/urls.md",
+      "target_path": "recovered/dt-research-public/docs/platform/urls.md",
+      "sha256": "bd6cf307d84432af3aac1b76c6a3683b7b82464170e8db93bec0bca4f0544b11",
+      "size": 1295,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/retests.html",
+      "target_path": "recovered/dt-research-public/docs/retests.html",
+      "sha256": "ac3464bd7f2567a2b267e78986c8350aa076499f2c11b10ba632bba5e97eea8a",
+      "size": 2300,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/robots.txt",
+      "target_path": "recovered/dt-research-public/docs/robots.txt",
+      "sha256": "d5536b9103f19b3aef04d1985414a21e4d0ee823630976cba210cadd05ca29bc",
+      "size": 97,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/sitemap.xml",
+      "target_path": "recovered/dt-research-public/docs/sitemap.xml",
+      "sha256": "034e302548bba79d149f74fb6f98bfd568bc164dd3d8e81aee2efdb71496c0ce",
+      "size": 955,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/theory.html",
+      "target_path": "recovered/dt-research-public/docs/theory.html",
+      "sha256": "8ea623e1de256a7bd6b00fabdabc292ba3a862b6c036c53eab2129ce91620b80",
+      "size": 2541,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "docs/updates.html",
+      "target_path": "recovered/dt-research-public/docs/updates.html",
+      "sha256": "ff60137b672da4491df0f54d3a2f6e6b09687b8d8f902938880c77cfd708d7e5",
+      "size": 4126,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "equations/LINEAGE.md",
+      "target_path": "recovered/dt-research-public/equations/LINEAGE.md",
+      "sha256": "82faba1299f42cae07f2d449fc74d16055112ad63a18461786c54b7453fe0191",
+      "size": 1769,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "equations/REGISTRY.md",
+      "target_path": "recovered/dt-research-public/equations/REGISTRY.md",
+      "sha256": "db237e35d78b4b0162394e8e0ebca50bbdf032a14f938664b384408fba9394d9",
+      "size": 1720,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "proposals/README.md",
+      "target_path": "recovered/dt-research-public/proposals/README.md",
+      "sha256": "f762cc0ca9e0492c165a506aa337388ddaff8831ff9f00e87fb050c04b6eb12d",
+      "size": 1462,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "provenance/DATA_OBLIGATIONS.md",
+      "target_path": "recovered/dt-research-public/provenance/DATA_OBLIGATIONS.md",
+      "sha256": "bca4c73749510ad8134c63af291eff071a49c87f52270a115b32d4caaa6f731a",
+      "size": 1239,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "provenance/PROVENANCE.md",
+      "target_path": "recovered/dt-research-public/provenance/PROVENANCE.md",
+      "sha256": "5cb0439859c44f8dc0988f6c14bff88e8385bcaf3072d986ad1f6f80192d533a",
+      "size": 1166,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "provenance/PUBLIC_FILE_INVENTORY_2026-09-18.md",
+      "target_path": "recovered/dt-research-public/provenance/PUBLIC_FILE_INVENTORY_2026-09-18.md",
+      "sha256": "5ec8a1220b52accccd145a408b21fe3df55c4ac506257e500eda6025ea016233",
+      "size": 1206,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "provenance/PUBLIC_RELEASE_GATE_2026-09-18.md",
+      "target_path": "recovered/dt-research-public/provenance/PUBLIC_RELEASE_GATE_2026-09-18.md",
+      "sha256": "3848793a7cb95c5390db33858451f1e39eca31ad12b9f76471e0b94b6610be2e",
+      "size": 2611,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "provenance/PUBLISHED_HASH_LOG_2026-09-18.md",
+      "target_path": "recovered/dt-research-public/provenance/PUBLISHED_HASH_LOG_2026-09-18.md",
+      "sha256": "37e5b2ac8da81c3e0cb226f1a79cd353184e3a6287872508dae6e28a9d9acfaf",
+      "size": 1355,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "provenance/RECOVERY_STATUS_2026-09-17.md",
+      "target_path": "recovered/dt-research-public/provenance/RECOVERY_STATUS_2026-09-17.md",
+      "sha256": "d7fb0f66b34bdc91411d4544e918764a4c61ef34a9d79d437f422c2df5df41db",
+      "size": 2954,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "provenance/RECOVERY_STATUS_2026-09-18.md",
+      "target_path": "recovered/dt-research-public/provenance/RECOVERY_STATUS_2026-09-18.md",
+      "sha256": "8d97d8028c66c3bf72619ddb6b78668755ceee9552b3ee8e2e90935248e906eb",
+      "size": 2383,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "provenance/WORKSTREAM_COORDINATION.md",
+      "target_path": "recovered/dt-research-public/provenance/WORKSTREAM_COORDINATION.md",
+      "sha256": "f7b1e44c0f8d39e8702617add3a8136a5832069cdbe52e5df7c813e096226f13",
+      "size": 1687,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/EXPORT6_CERTIFICATION_PROTOCOL.md",
+      "target_path": "recovered/dt-research-public/reconciliation/EXPORT6_CERTIFICATION_PROTOCOL.md",
+      "sha256": "20345fcb5ae8b07b7977c38021484d7efaf94a7003c78f707f12ff07d2132f97",
+      "size": 2506,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/README.md",
+      "target_path": "recovered/dt-research-public/reconciliation/README.md",
+      "sha256": "d3c5b861c2828c7124bfdf3ae3518bbbf09d08778afd5bd4b81e4116c778680d",
+      "size": 2186,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/audit_closeouts.mjs",
+      "target_path": "recovered/dt-research-public/reconciliation/audit_closeouts.mjs",
+      "sha256": "a4537796193ed999f9437e3350bd55aa9736d801f5ea28c0f42f124ac41f5e0e",
+      "size": 4219,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/digest_closeout_archive.mjs",
+      "target_path": "recovered/dt-research-public/reconciliation/digest_closeout_archive.mjs",
+      "sha256": "c55bf2fe148a84ad08f1cc93e3e152c4ae1ff534ef6317547e200f1799a131de",
+      "size": 1512,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/export_render_2026_09_09/FOUR_EXPORT_LINEAGE.md",
+      "target_path": "recovered/dt-research-public/reconciliation/export_render_2026_09_09/FOUR_EXPORT_LINEAGE.md",
+      "sha256": "c579d5008bfd444808f26c72348797b416eb43a1af98757c5c1edb09b6c9228e",
+      "size": 3885,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/export_render_2026_09_09/README.md",
+      "target_path": "recovered/dt-research-public/reconciliation/export_render_2026_09_09/README.md",
+      "sha256": "110730ac7f065459d27f6cde7f6b9e0b146141637981cad6008b69cb1ddc1af1",
+      "size": 1453,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/export_render_2026_09_09/public_node_diff_summary.json",
+      "target_path": "recovered/dt-research-public/reconciliation/export_render_2026_09_09/public_node_diff_summary.json",
+      "sha256": "5567d8f4427ea29de278beacc2f94a211abca46cc46c7c88a0a4c749f35841e0",
+      "size": 883,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/fixture/conversations.json",
+      "target_path": "recovered/dt-research-public/reconciliation/fixture/conversations.json",
+      "sha256": "f6a01e6692dfb956c42a6c5c86804a176c4d80f40cb1d15e54aa164801b682f8",
+      "size": 284,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/fixture/live.jsonl",
+      "target_path": "recovered/dt-research-public/reconciliation/fixture/live.jsonl",
+      "sha256": "dd1b5dff26a0f1525c8bde519a72411a4c89ef4a995ae49997033d61984f6d3e",
+      "size": 406,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/freeze_capture.mjs",
+      "target_path": "recovered/dt-research-public/reconciliation/freeze_capture.mjs",
+      "sha256": "53d7407d28c81a1877720e2414e3843c300f3c76fc8a9517aad50abe469955a7",
+      "size": 1894,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/historical_closeout_reconciliation_2026-09-09.json",
+      "target_path": "recovered/dt-research-public/reconciliation/historical_closeout_reconciliation_2026-09-09.json",
+      "sha256": "c8702f6b90eb771ac4d5c18f077fdbb9fc9f3b0496a4c088cc8351392cf72023",
+      "size": 2641,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/live_capture_record.schema.json",
+      "target_path": "recovered/dt-research-public/reconciliation/live_capture_record.schema.json",
+      "sha256": "dacbccef5d549c2b17fcafee3e1849f1a6500218a132a0841d3c41cbd221d27d",
+      "size": 1169,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/movement_event.schema.json",
+      "target_path": "recovered/dt-research-public/reconciliation/movement_event.schema.json",
+      "sha256": "9b7e68049f88fd658c7e1148884cffee481e5ba115949919f815598dc968557a",
+      "size": 1358,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v2/README.md",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v2/README.md",
+      "sha256": "2af008a1d05bb467c052cd7682bc4f2f7c8c73ad59118d26f4549b102ee2c837",
+      "size": 1808,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v2/historical_closeout_reconciliation_2026-09-09_v2.json",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v2/historical_closeout_reconciliation_2026-09-09_v2.json",
+      "sha256": "7f3b4d9a9e74c1bfc254bbc57b2f071c0827a673aacca110f1060e0c4139de14",
+      "size": 8768,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v2/reconcile_closeouts.py",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v2/reconcile_closeouts.py",
+      "sha256": "b7123898eb7c41bc01c11353bc3bf3b3d7f98057fffed8e71a4379076714ebf8",
+      "size": 9150,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v2/recover_recaps.py",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v2/recover_recaps.py",
+      "sha256": "180646f686ee75fcc53734ff03903f707ec3db12ffd100c2ef0780eafd98b989",
+      "size": 6862,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v2/test_reconcile_closeouts.py",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v2/test_reconcile_closeouts.py",
+      "sha256": "dccbcf57b52181e8d796ade223c5fd2152e87f1fb9de8350a4649677061b1d47",
+      "size": 2588,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/README.md",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/README.md",
+      "sha256": "8214cb463559081ae50fca34dafe475400d83ee033d5e48688f4a3cb56033bbb",
+      "size": 2594,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/RELEASE_MANIFEST.json",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/RELEASE_MANIFEST.json",
+      "sha256": "204b30815417963c9905a92870414f0a3b6597c66e2345c58af4ae01f406abb8",
+      "size": 1853,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/asset_reference_summary.json",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/asset_reference_summary.json",
+      "sha256": "255a8997c4c539652fa2ef4da9420ec8ef4707fee65fb4adc979dbc936b526d3",
+      "size": 686,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/audit_native_coverage.py",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/audit_native_coverage.py",
+      "sha256": "7749311f78b2fdda843464a40bb9b9c8acca3d704937de4df1740e26a4908d65",
+      "size": 5893,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/build_asset_reference_index.py",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/build_asset_reference_index.py",
+      "sha256": "6b70b30634ae375c6fd767d54e33596ec77ac06322a388df76a8649a22192b1a",
+      "size": 2995,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/build_source_inventory.py",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/build_source_inventory.py",
+      "sha256": "892f3382f725a92e1f7a1bee815cbb355f4f88987e3757fcc4c87831f0ecd015",
+      "size": 8737,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/native_coverage_public.json",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/native_coverage_public.json",
+      "sha256": "3d7b9dcda63646baf0be46a826779d3672ef778b5afecd6111f5211dd5e3fdaf",
+      "size": 10146,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/reconcile_closeouts_v3.py",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/reconcile_closeouts_v3.py",
+      "sha256": "564fd3724520542052361f360fe4e382c3d28d8d2a924c48ae2ceab90a82d790",
+      "size": 9153,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/recover_observable_v3.py",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/recover_observable_v3.py",
+      "sha256": "da82282678473e30f16192ffee047d0991753e1c64d3a5e5f0ba999c3b8e21db",
+      "size": 6156,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/source_inventory_summary.json",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/source_inventory_summary.json",
+      "sha256": "8e1b241b3cae3d35aac60cca13d7159a83be91a6b473fc182c927058c90846cb",
+      "size": 2722,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/source_audit_v3_1/test_source_audit_v3.py",
+      "target_path": "recovered/dt-research-public/reconciliation/source_audit_v3_1/test_source_audit_v3.py",
+      "sha256": "56519903f606a9c33c08e0dbc62662563bbef54e89f1ef77ae59c08461ce55a0",
+      "size": 4838,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "reconciliation/validate_live_capture.mjs",
+      "target_path": "recovered/dt-research-public/reconciliation/validate_live_capture.mjs",
+      "sha256": "638ae7f5dae32d53e223112ea4a6671febd2a8aa6559ac3c29ca0e9b6e64df4b",
+      "size": 4241,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "retests/BBN_ALTERBBN_EXECUTION_2026-09-08.md",
+      "target_path": "recovered/dt-research-public/retests/BBN_ALTERBBN_EXECUTION_2026-09-08.md",
+      "sha256": "b324a7d68795cca260169a1b1a0327940d88af4b78955646a9c639cb0ca6b013",
+      "size": 3793,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "retests/BBN_LITHIUM7.md",
+      "target_path": "recovered/dt-research-public/retests/BBN_LITHIUM7.md",
+      "sha256": "658608e036a82358d078731232abdfb477a4d1e3a29ba592d0f6658e1a8f49aa",
+      "size": 2559,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "retests/BRANCH_DEPENDENCE.md",
+      "target_path": "recovered/dt-research-public/retests/BRANCH_DEPENDENCE.md",
+      "sha256": "ff82836456b3e58b93eeabfa46b9ef61b43f764caf189629ceb14baa7e8f35f0",
+      "size": 998,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "retests/CVECTOR_POSITIVE_CONTROL.md",
+      "target_path": "recovered/dt-research-public/retests/CVECTOR_POSITIVE_CONTROL.md",
+      "sha256": "2593d964b69608af56740b46cde9d7223e9adfc2946c3a72336d2db7246ad431",
+      "size": 1055,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "retests/README.md",
+      "target_path": "recovered/dt-research-public/retests/README.md",
+      "sha256": "013237b6e7b74b445c8f05b2f49fcf6f811f460d1fd8f06043a313ac79997295",
+      "size": 1019,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "retests/RETEST_MATRIX.md",
+      "target_path": "recovered/dt-research-public/retests/RETEST_MATRIX.md",
+      "sha256": "da2db5803aeb37a277003942597421c8ade6f735b6d277ffa3435c4609fd492b",
+      "size": 1780,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "retests/RETEST_TEMPLATE.md",
+      "target_path": "recovered/dt-research-public/retests/RETEST_TEMPLATE.md",
+      "sha256": "5300467ee8fd90af612a1a641d13f1c8d8a727da832410340249878af26c21fb",
+      "size": 1088,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "retests/STATUS_TRANSITIONS.md",
+      "target_path": "recovered/dt-research-public/retests/STATUS_TRANSITIONS.md",
+      "sha256": "fceb4c4d648cc69189b771333a5427f99b96be348e125acb24962d46af48bac2",
+      "size": 1311,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/EXECUTION_EVIDENCE.md",
+      "target_path": "recovered/dt-research-public/simulations/EXECUTION_EVIDENCE.md",
+      "sha256": "f39b9bc0ae11dccb3d5610ba1260a50f1eebd921703d686bce161f68367cb4e2",
+      "size": 1219,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/LEDGER.md",
+      "target_path": "recovered/dt-research-public/simulations/LEDGER.md",
+      "sha256": "3011cb47816838f4b9e2cd789c34a0b9a8fdcca396c38fd06e6947f557cd4bee",
+      "size": 1615,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/.gitignore",
+      "target_path": "recovered/dt-research-public/simulations/replay/.gitignore.source.txt",
+      "sha256": "b205e53e0cb16bd1b252f12150a0576b7e669bb9d58df0d8dc00e5648f4135bb",
+      "size": 32,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/PRISM_CANDIDATE_DISPOSITION.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/PRISM_CANDIDATE_DISPOSITION.md",
+      "sha256": "8ad704c34306c56600ea89f912b3c9d94648dde95c9d587ebd9560d2511d391e",
+      "size": 1384,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/README.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/README.md",
+      "sha256": "f84afb1d2e95ac3ad9e5505c53ed6b172141b1b6f2f98980a0e732638b0a7d98",
+      "size": 1944,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/RECOVERY_QUEUE.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/RECOVERY_QUEUE.md",
+      "sha256": "90e9e9e7b756be44e9c50b53a1ab59fd1c23b74a8ae1e30149e8d1316ed50f84",
+      "size": 2322,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/bootstrap.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/bootstrap.py",
+      "sha256": "231079b275940c36e34f533203774a98032264d1f8d5e13ab108607b7b474f45",
+      "size": 970,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/.gitignore",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/.gitignore.source.txt",
+      "sha256": "da81866f95b775552c39f45e41776c5ce3adb84668db725762265a003605e80a",
+      "size": 29,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/CAUSAL_RUN_LEDGER.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/CAUSAL_RUN_LEDGER.md",
+      "sha256": "8d10e97cd35bb27e3281f0ed2f7e9093979ffa63fc9613b41706d58f3c944cee",
+      "size": 9835,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/CAUSAL_VALIDATION_V2.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/CAUSAL_VALIDATION_V2.md",
+      "sha256": "e88a54eaf9f85142604ba8a7acf0fbad049f327592256f74479389965359a2a6",
+      "size": 3174,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/README.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/README.md",
+      "sha256": "4656109c3d29d22bb6a528e6ddc861e7c83cfe6bb909b8d73f4e221d9dae28b3",
+      "size": 1801,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/REPLAY_CORRECTION_2026_09_10.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/REPLAY_CORRECTION_2026_09_10.md",
+      "sha256": "3b65d426593c0b87d042b8118f1f7fce1d4d30e8bdb3ce9ef28153a0a2345363",
+      "size": 2214,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/RUN_HISTORY.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/RUN_HISTORY.md",
+      "sha256": "e93842f30b23bb916f00c122991cee68096dfea28c4c818c92ff605829dac648",
+      "size": 6071,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/aggregate_replay_receipt.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/aggregate_replay_receipt.json",
+      "sha256": "c9f0bf736d5a74ce7b3e40400712d7d5270bdde1ebde60abbd9f696fa956df10",
+      "size": 265,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/aggregate_replay_receipt_v1_invalid.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/aggregate_replay_receipt_v1_invalid.json",
+      "sha256": "271e567a8058513c256183c91cb0ff01c182cc6b4bdfaf6887ee817ce8306cee",
+      "size": 3326,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/aggregate_replay_receipt_v2.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/aggregate_replay_receipt_v2.json",
+      "sha256": "4a01de666c4c1cc43a5823794c077b789f14c0cb856daf1b3e994f715e64aa42",
+      "size": 7839,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/replay_run.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/replay_run.py",
+      "sha256": "f5b45b82848d0e3ee00c2fea30530c8271b9cdd594f7c1b629d054d4efcf1585",
+      "size": 1827,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/requirements.txt",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/requirements.txt",
+      "sha256": "7c3194b101c68d4c524948fd09ec3dff5e7ecf54f11e8ccc23440ff932a604e7",
+      "size": 13,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_01.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_01.py",
+      "sha256": "98445a4c0fdd375487ca7ebf4b9bb02efe560da4b52cf061c8bf96157ac31028",
+      "size": 9573,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_02.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_02.py",
+      "sha256": "71346c0a0df9525c84dd634ce94e223934eebe4abbefd1484bd2ed02ed36fecb",
+      "size": 10590,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_03.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_03.py",
+      "sha256": "2b742aae592601fbf378d1bf54651364a9152b0176ae492c8e23626d9f44c448",
+      "size": 9134,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_04.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_04.py",
+      "sha256": "38cfa4e0e61ed8604490fe6097ae351fd54492a6ce82169b018b56cbf0c7de22",
+      "size": 9654,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_05.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_05.py",
+      "sha256": "780d3b385145bb1c4d4c986aac8cd425b980416772054d21ce905ffda13adbec",
+      "size": 15661,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_06.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_06.py",
+      "sha256": "05485a89749f46c89510e64a4ce1fc9cac06235a8c4c7b48d07f17060aaa8462",
+      "size": 12709,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_07.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_07.py",
+      "sha256": "5ab9ef2a04d4aed43d3add25bb6c144b3319036354da3ae929eaa479948694c1",
+      "size": 10279,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_08.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_08.py",
+      "sha256": "781767b13a834504f53dd9554fa7493523f912e8dfcbf3861ba6f603264b5658",
+      "size": 7639,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_09.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_09.py",
+      "sha256": "ba2d23e2d62040bcc97d6267db102df277b0c733368e7dec274c1ddee1b425ef",
+      "size": 9431,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_10.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_10.py",
+      "sha256": "aa11444a8c26ed3a03c3254454226cb3c4025a0ca0ed11b454256f6679f3fb0c",
+      "size": 9569,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_11.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_11.py",
+      "sha256": "066b06392485c42f0e3256ced1c2f5889f6fecb6704e8b28d02d1847bc04435d",
+      "size": 10190,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_12.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_12.py",
+      "sha256": "74f198c9828e2067b6c8eb4cb862c9d9a6150b28b784b1c2a1fc4c3be8c26c72",
+      "size": 14568,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_13.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_13.py",
+      "sha256": "0c17200e4a29ef2f81af8a7c9f77098036306323573f8bf58e959dddb56323e8",
+      "size": 12097,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_14.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_14.py",
+      "sha256": "5edf66706ec9d2b398c5ae194f46410068c5bd0e55e205d829db92a82670a0ac",
+      "size": 6487,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_15.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_15.py",
+      "sha256": "b61fc5275f0746363ffda11e596ca2f0c8eda1c749acd7c7d4c4357d5449498c",
+      "size": 9360,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_16.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_16.py",
+      "sha256": "47532d2b1286adefe07991e9916327f1db39df4ccaf7892ad147202a97ca3277",
+      "size": 6862,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_17.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_17.py",
+      "sha256": "6e817470d666a64e0568e23869b9ee45ef5bbdec4eea16efbf27a3d54e4be12c",
+      "size": 9025,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_18.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/run_18.py",
+      "sha256": "93809cbe4e9c46ae23873cce9c8ac4f54fe4bcae4f2e06b6cefae1f33721ed6a",
+      "size": 12120,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/source_manifest.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_blackhole_recursive_learning_2026_05_recovered/source_manifest.json",
+      "sha256": "60e0b8b52b6004720623b30aea1adb69b9d7443a909b356fe1899beba02651fd",
+      "size": 13420,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_debate_resilience_2026_05_recovered/.gitignore",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_debate_resilience_2026_05_recovered/.gitignore.source.txt",
+      "sha256": "696b145617c3fa8bea53714df6b7b9f7374c8e97e30aeee117fc6bb4126a5474",
+      "size": 31,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_debate_resilience_2026_05_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_debate_resilience_2026_05_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "sha256": "80a054a9ec97f5bfd612756675619b818de54e85f2f68124695f97b491542554",
+      "size": 3546,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_debate_resilience_2026_05_recovered/replay_run.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_debate_resilience_2026_05_recovered/replay_run.py",
+      "sha256": "1245c95bf2f33710fc464a3bf73445c9316bc20131b07745d680966e3a804253",
+      "size": 1169,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_debate_resilience_2026_05_recovered/run_01.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_debate_resilience_2026_05_recovered/run_01.py",
+      "sha256": "67afd96b3fe2f0e1aee8be02986d82712d6c0a161724c3d10e699321d783c26c",
+      "size": 11636,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_debate_resilience_2026_05_recovered/run_02.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_debate_resilience_2026_05_recovered/run_02.py",
+      "sha256": "6ccbca93d556e2f6b994c4e721b0e73405a5e00236923a01becba992d0c5f694",
+      "size": 13240,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_debate_resilience_2026_05_recovered/run_03.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_debate_resilience_2026_05_recovered/run_03.py",
+      "sha256": "fc4a0766670c1cb4015093c767e39ef6308c66cb8486d18bd9576709cd6a58f8",
+      "size": 10807,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_debate_resilience_2026_05_recovered/run_04.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_debate_resilience_2026_05_recovered/run_04.py",
+      "sha256": "1ebd0067b9022c8011e77f32b650512a7dca45597ef83e49bd66f5c271ed9aa6",
+      "size": 12234,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_debate_resilience_2026_05_recovered/source_manifest.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_debate_resilience_2026_05_recovered/source_manifest.json",
+      "sha256": "a12a464e2d9ea4d017b5a3f348842742aed38bf7804dc630c32ec8a0a255675c",
+      "size": 1670,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_debate_resilience_2026_05_recovered/validation_receipt.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_debate_resilience_2026_05_recovered/validation_receipt.json",
+      "sha256": "575690fbb60276d3d43f09fc09f474f7159d646c90b275571cd679e35d03fde7",
+      "size": 1700,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "sha256": "61a6a11aaad63f25e2a240d556041c59efdae63be900e01d26bb88e9b51485b0",
+      "size": 3442,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/EVOLUTION_HISTORY.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/EVOLUTION_HISTORY.md",
+      "sha256": "df03787c8bedc4efb72b8e186267e71f0f9fe4c9b6c46207204dc0e03fc0ba12",
+      "size": 2898,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/README.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/README.md",
+      "sha256": "69b0ef0da468a2b6d168d3b8002f729bb3c9d44f14bd715154c4ef019c3cb1a5",
+      "size": 1234,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_01.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_01.py",
+      "sha256": "a74b20c6ea4c14dbf5295a586bd15a88078c218dd19e12d9732c4c8bfefbdbc0",
+      "size": 3375,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_02.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_02.py",
+      "sha256": "624ab68c71393b9ec586a49db3bb1257f25c7f612ed55cd6495f2c9ac7f61e7b",
+      "size": 7152,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_03.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_03.py",
+      "sha256": "0134db093a12cbc3af10f5f87105265b2a6b3365661f1e4228196a8ddf0ef76b",
+      "size": 60,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_04.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_04.py",
+      "sha256": "08cc33ee396939b5da2ee2515d6a6635f1ab73a0b71eb72f34d15bddbdaf499a",
+      "size": 2974,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_05.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/cell_05.py",
+      "sha256": "ff43c6586737a3e3165f92666b157fa2aecab9a1a2f0408b39e7c785fa953485",
+      "size": 1117,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/replay.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/replay.py",
+      "sha256": "9db88419b3a31842876f20a8f2ac5b460050133b4a80642cca9a9e74d212e6ac",
+      "size": 1044,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/replay_result.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/replay_result.json",
+      "sha256": "5ae77527b73e173ef759716609a20601290559305c8aa52322b2c66c94620cff",
+      "size": 2701,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/requirements.txt",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/requirements.txt",
+      "sha256": "7c3194b101c68d4c524948fd09ec3dff5e7ecf54f11e8ccc23440ff932a604e7",
+      "size": 13,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/source_manifest.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/source_manifest.json",
+      "sha256": "af9de8bbcf1b636d2d321cf1e2503c123578b83d334d97cfe1a7aea05526f9c0",
+      "size": 6112,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/validation_receipt.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_hawking_accessibility_2026_05_07_recovered/validation_receipt.json",
+      "sha256": "9a1677281668ea7953e66f87461631f9d22fa232515bcace8ffce02c125bcdbd",
+      "size": 610,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "sha256": "9e56c6896ea477f593fd750de1fa9483fbe05f20516e6e43735849183bab5a79",
+      "size": 3120,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/replay.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/replay.py",
+      "sha256": "1030951effac2802b2369acb41b00d69fbeff61c598816809384b730325c333f",
+      "size": 744,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/replay_receipt.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/replay_receipt.json",
+      "sha256": "4a0c3d93e0621e6234781dfd2bf7ae43fae9ecf1f649d37cb0ba07a9aef4ed34",
+      "size": 1854,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/run_01.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/run_01.py",
+      "sha256": "c346a1ed1a83b114d980dd828cd0acc570029967ebe7c83215905ea4d6361339",
+      "size": 4179,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/source_manifest.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/source_manifest.json",
+      "sha256": "a1fa0ee8be88b0a1f6f25e1d2b4d414e0def365e1372e7b9c0ca607f88470e40",
+      "size": 2605,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/validation_receipt.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_persistence_laboratory_2026_05_recovered/validation_receipt.json",
+      "sha256": "aeda118f2206018f24fcbe857b3ef48ca46905db965ee57e59b4dccafdf8e748",
+      "size": 747,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/.gitignore",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/.gitignore.source.txt",
+      "sha256": "e98ef3ea5230683c04aa237669cdadaf377c7d605911dd267295cc8be59e0fa2",
+      "size": 31,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "sha256": "392cb99f8bece260ae79b6882b7705bc1d37605b2be14fb9f7c1e8fc6091e7f1",
+      "size": 4483,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/replay_run.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/replay_run.py",
+      "sha256": "c8a91b166246547a1689c36efe859d20d41b9a833599f9ac75a0819dbadd0cfa",
+      "size": 1914,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/requirements.txt",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/requirements.txt",
+      "sha256": "48155bbd1c9e04413103c1e4b4701879cb8b0ed6161b452f285324241e4bf7df",
+      "size": 15,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_01.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_01.py",
+      "sha256": "7259b106adbfef87648a0daeb81b5c965c0b505a14996efaa035b0e808ab6197",
+      "size": 13488,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_02.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_02.py",
+      "sha256": "3f35ee54c6df5c9a9c00865cf8da74d71d548c867ffb22f51a247c1ffc3d595f",
+      "size": 9388,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_03.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_03.py",
+      "sha256": "a427de4d1f41c542419621c94ac6835c9426adfb18ead68a0d88d2b4eb90aef6",
+      "size": 4788,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_04.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_04.py",
+      "sha256": "20fabc55f7cc6e916fb06034615edb9a97401a102808af0292f587f1f7d97d37",
+      "size": 5097,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_05.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_05.py",
+      "sha256": "e2f5f6f4976510a4267637a3e9e68d5fb9f95b9e962aa4680ac048cc4baddeca",
+      "size": 9343,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_06.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_06.py",
+      "sha256": "6d21971a9c6eb045c7f31dae9cd2e4bff63a32810129dbd71c959396feb2c59b",
+      "size": 12189,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_07.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_07.py",
+      "sha256": "dc226552f19ed16366f72d9ccd136f278f977b331b36bf57f76ea8dc856d606e",
+      "size": 16382,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_08.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/run_08.py",
+      "sha256": "be62aa8b8cd7418818633444dd469dd2b5c57899a2ba931768d333291db171f9",
+      "size": 12172,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/source_manifest.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/source_manifest.json",
+      "sha256": "a8ec4b700206087b626705f9b4d4aae61b87e754d90a31d4e4a69437708099a0",
+      "size": 3761,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/validation_receipt.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_civilization_2026_05_recovered/validation_receipt.json",
+      "sha256": "2da145c84d3d081ca918113925ea57f5917c3de036849411aa99db3b1a264b6f",
+      "size": 4498,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/.gitignore",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/.gitignore.source.txt",
+      "sha256": "d958025fe3928d9ec40a2cd0b56e873c5f3ad4ca45be3d104583964cbcff26cb",
+      "size": 18,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/CAUSAL_PROCESS_LEDGER.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/CAUSAL_PROCESS_LEDGER.md",
+      "sha256": "c6c9cb6bf64401a00b9a67b75635ede6b07862d62e6b69bc968518783c8db838",
+      "size": 2361,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/EXECUTION_2026-09-09.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/EXECUTION_2026-09-09.md",
+      "sha256": "5ef8ebb955e66426789a74506b476ceda8f1f65c065fdcfe896bf31f578cb778",
+      "size": 3482,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/SOURCE_NOTES.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/SOURCE_NOTES.md",
+      "sha256": "14b124a934d2278dbee198ad6f39dd99357dcda1b42435c4eca8ccd574dcfef8",
+      "size": 2679,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/manifest.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/manifest.json",
+      "sha256": "3a7746a450f768fcb2d58d811b8464c6fe99afc4648ba7fd9065ca20e193b51b",
+      "size": 1261,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/requirements.txt",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/requirements.txt",
+      "sha256": "7c3194b101c68d4c524948fd09ec3dff5e7ecf54f11e8ccc23440ff932a604e7",
+      "size": 13,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/results/dt_full_sim_history.csv",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/results/dt_full_sim_history.csv",
+      "sha256": "2eb8f27a2fedf2151f02a0a83560c2d28a920497a94dcd696cdd54395edd9c52",
+      "size": 15103024,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/results/dt_full_sim_lessons.csv",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/results/dt_full_sim_lessons.csv",
+      "sha256": "187404c38f1c45c53ca557d40ec6eaeb226922397d320245dadb344185fc599b",
+      "size": 537,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/results/dt_full_sim_summary.csv",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/results/dt_full_sim_summary.csv",
+      "sha256": "0de91bc07ede26894d8856bc3264405aa8996a0eb66ab6a6c54d23f06e6d0ba4",
+      "size": 629,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/results/dt_full_sim_trials.csv",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/results/dt_full_sim_trials.csv",
+      "sha256": "3d86ee444da25eb1b0a82891941d2599f194506ce295583c84e96fc3be2dd93e",
+      "size": 29865,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/simulation.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_recursive_convergence_2026_05_09_reconstruction/simulation.py",
+      "sha256": "b3e96ae85b862e61773551f6a9a591dcb2cdc8c25acc06d256658c156d9d4c91",
+      "size": 14283,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/.gitignore",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/.gitignore.source.txt",
+      "sha256": "cbefae5900750880d31c4857d2cb07428375c7eba289d122e64315b335aefec1",
+      "size": 34,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/CAUSAL_PROCESS_LEDGER.md",
+      "sha256": "be5a6154c03d6340f4baeef58aa47b9e1175c0871ad7d4cb0023f616ae48ea1d",
+      "size": 3087,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/README.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/README.md",
+      "sha256": "e6764291a862d654e2c3a5f269940a2fa1ba3b51e5824963ffdfbd71be9e2227",
+      "size": 900,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/SOURCE_CLASSIFICATION_CORRECTION.md",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/SOURCE_CLASSIFICATION_CORRECTION.md",
+      "sha256": "053d1c7603f14a7447d31702d45cfac4a605333da8f120bcfc55f24b9802f5eb",
+      "size": 991,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/replay_run.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/replay_run.py",
+      "sha256": "9f79460f27661dcdada0b2cf5a41fda1b3ffd044a5ae2ffb9e32448f4225eb1c",
+      "size": 1696,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/run_01.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/run_01.py",
+      "sha256": "6d6748502749b2e597ef1418be7180ed23f728e79a4232c8504b35535a260375",
+      "size": 6101,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/run_02.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/run_02.py",
+      "sha256": "b35a884f4c5d64904b758bf9e39de64fcd2ebfa3526bf736a0ed87ec35d759f3",
+      "size": 8340,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/run_03.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/run_03.py",
+      "sha256": "e71158b7f89a49e73716b4770f3f51e947bfa9ef1a7fbdafe1244040ddaa9330",
+      "size": 8896,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/source_manifest.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/source_manifest.json",
+      "sha256": "69a195dccba5de16fcca95c505b09a22e6b8baa1165f8170fb71501b3ab4ae66",
+      "size": 1677,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/validation_receipt.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/packs/dt_toy_1d_smoother_2026_05_recovered/validation_receipt.json",
+      "sha256": "ecaa6874011d2322c797939d2cce74d1185c5fbc88904868f9175b8a569ef019",
+      "size": 924,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/registry.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/registry.json",
+      "sha256": "4c10b4e36dfa15e2f007225d9b4a380335891d2c21a2a01ad604cd218793b132",
+      "size": 6651,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/replay.py",
+      "target_path": "recovered/dt-research-public/simulations/replay/replay.py",
+      "sha256": "64be793088f45df0513f782d0907f5299c4259fb8af2ca63a33fbb9100ab4bc9",
+      "size": 3941,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/validation/dt_recursive_convergence_2026_05_09_reconstruction/dt_full_sim_summary.csv",
+      "target_path": "recovered/dt-research-public/simulations/replay/validation/dt_recursive_convergence_2026_05_09_reconstruction/dt_full_sim_summary.csv",
+      "sha256": "4fbddc8b46ce4d8b2dfa8468a43764de06ea10aa6851eb373fda9f263479a332",
+      "size": 693,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/validation/dt_recursive_convergence_2026_05_09_reconstruction/dt_full_sim_trials.csv",
+      "target_path": "recovered/dt-research-public/simulations/replay/validation/dt_recursive_convergence_2026_05_09_reconstruction/dt_full_sim_trials.csv",
+      "sha256": "6b820eb1465a673b97b0c676b5e3bbbf8f0ded0d25d54540c80b18610fdda9b7",
+      "size": 1957,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "simulations/replay/validation/dt_recursive_convergence_2026_05_09_reconstruction/receipt.json",
+      "target_path": "recovered/dt-research-public/simulations/replay/validation/dt_recursive_convergence_2026_05_09_reconstruction/receipt.json",
+      "sha256": "f2f4fa6ee16e12a84d793aea019211ce267e91a88e08d9f8d5b3a3525bba077e",
+      "size": 2238,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "source_archives/SOURCE_MANIFEST.md",
+      "target_path": "recovered/dt-research-public/source_archives/SOURCE_MANIFEST.md",
+      "sha256": "a66f8cabc86ae8a46fc149f4ec0e8ed71900c2bcf1135a923e33132c6f5f98a9",
+      "size": 2386,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "source_archives/derived/DT_CLOSEOUT_6a04b0a6_TOY_1D_SMOOTHER_LIMITATIONS_DERIVED_CONVERSATION_MODEL.md",
+      "target_path": "recovered/dt-research-public/source_archives/derived/DT_CLOSEOUT_6a04b0a6_TOY_1D_SMOOTHER_LIMITATIONS_DERIVED_CONVERSATION_MODEL.md",
+      "sha256": "432c19f74fa79fa3e3932f2911fc43e4aca3ce2ef85a8b5f826ae6131cc73986",
+      "size": 9134,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "source_archives/recovered/dt_equation_custodian_agent_v1.md",
+      "target_path": "recovered/dt-research-public/source_archives/recovered/dt_equation_custodian_agent_v1.md",
+      "sha256": "58d725fa8d48d53e726b0d9b2b53a0a7d7c55efd9cdedbbb4a1be8e568bff351",
+      "size": 25134,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "source_archives/recovered/master_branch_registry_pass11.csv",
+      "target_path": "recovered/dt-research-public/source_archives/recovered/master_branch_registry_pass11.csv",
+      "sha256": "147e53ba0d4c219cf6d68e8311d288f24472005337c581bdf2e8a8de22268203",
+      "size": 10712,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "source_archives/verbatim/DT_CLOSEOUT_6a04b0a6_TOY_1D_SMOOTHER_LIMITATIONS_VERBATIM_SELECTED_BRANCH.md",
+      "target_path": "recovered/dt-research-public/source_archives/verbatim/DT_CLOSEOUT_6a04b0a6_TOY_1D_SMOOTHER_LIMITATIONS_VERBATIM_SELECTED_BRANCH.md",
+      "sha256": "6995a81d659b21839c0fa3646766fc71ae2801cddf0330a1fab11ef62b3e70de",
+      "size": 276138,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "theory/DISTEL_THEORY.md",
+      "target_path": "recovered/dt-research-public/theory/DISTEL_THEORY.md",
+      "sha256": "f5175c7e9812d02c4bf0845a5beb8d0122265f48488fd043865e298ba57c9a08",
+      "size": 1359,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "theory/DRO.md",
+      "target_path": "recovered/dt-research-public/theory/DRO.md",
+      "sha256": "951b90b773e81bb26dd819b925ed86317c0c0d0df8f91a25c90d33f3a5f614cb",
+      "size": 842,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "theory/DUCT.md",
+      "target_path": "recovered/dt-research-public/theory/DUCT.md",
+      "sha256": "6fe277a936b96b4c9862a6c8f01a76b870c8ca98d598ae5e4548c6964657a3c2",
+      "size": 820,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "visuals/FROM_PHILOSOPHY_TO_TEST.md",
+      "target_path": "recovered/dt-research-public/visuals/FROM_PHILOSOPHY_TO_TEST.md",
+      "sha256": "f7da37de3442aab4d013ad0200bc4d8b90f1e61dc0a805cb25f40a803ff2dfbb",
+      "size": 2046,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    },
+    {
+      "source_path": "visuals/README.md",
+      "target_path": "recovered/dt-research-public/visuals/README.md",
+      "sha256": "d6a31128d678fbcd24b43db281f4cbe9edd26a14b997cbbed36b8a5467f2a174",
+      "size": 837,
+      "state": "COPIED_HASH_VERIFIED",
+      "review_flags": []
+    }
+  ]
+}

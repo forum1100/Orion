@@ -1,0 +1,49 @@
+{
+  "schema": "DT_CLOSEOUT_TOOL_RELEASE_v3.1",
+  "created_at": "2026-09-09T06:22:20.895255+00:00",
+  "prior_release_sha256": "59086102d3cb980ac1f7e35cf2b8158d2e055c87ad94129416681d3c3dd244dd",
+  "change": "Repair JSON primitive-value scanner; add five synthetic tests; verified real six-shard inventory identity unchanged",
+  "files": {
+    "build_source_inventory.py": {
+      "bytes": 8737,
+      "sha256": "892f3382f725a92e1f7a1bee815cbb355f4f88987e3757fcc4c87831f0ecd015"
+    },
+    "audit_native_coverage.py": {
+      "bytes": 5893,
+      "sha256": "7749311f78b2fdda843464a40bb9b9c8acca3d704937de4df1740e26a4908d65"
+    },
+    "build_asset_reference_index.py": {
+      "bytes": 2995,
+      "sha256": "6b70b30634ae375c6fd767d54e33596ec77ac06322a388df76a8649a22192b1a"
+    },
+    "reconcile_closeouts_v3.py": {
+      "bytes": 9153,
+      "sha256": "564fd3724520542052361f360fe4e382c3d28d8d2a924c48ae2ceab90a82d790"
+    },
+    "recover_observable_v3.py": {
+      "bytes": 6156,
+      "sha256": "da82282678473e30f16192ffee047d0991753e1c64d3a5e5f0ba999c3b8e21db"
+    },
+    "test_source_audit_v3.py": {
+      "bytes": 4838,
+      "sha256": "56519903f606a9c33c08e0dbc62662563bbef54e89f1ef77ae59c08461ce55a0"
+    },
+    "README.md": {
+      "bytes": 2594,
+      "sha256": "8214cb463559081ae50fca34dafe475400d83ee033d5e48688f4a3cb56033bbb"
+    },
+    "source_inventory_summary.json": {
+      "bytes": 2722,
+      "sha256": "8e1b241b3cae3d35aac60cca13d7159a83be91a6b473fc182c927058c90846cb"
+    },
+    "native_coverage_public.json": {
+      "bytes": 10146,
+      "sha256": "3d7b9dcda63646baf0be46a826779d3672ef778b5afecd6111f5211dd5e3fdaf"
+    },
+    "asset_reference_summary.json": {
+      "bytes": 686,
+      "sha256": "255a8997c4c539652fa2ef4da9420ec8ef4707fee65fb4adc979dbc936b526d3"
+    }
+  },
+  "custody": "PUBLIC_TOOLING_ONLY__NO_PRIVATE_PAYLOADS"
+}

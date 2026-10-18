@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DT Live Conversation Capture Record",
+  "type": "object",
+  "required": ["capture_time", "source_class", "record_class", "content_sha256"],
+  "properties": {
+    "capture_time": {"type": "string"},
+    "conversation_id": {"type": ["string", "null"]},
+    "conversation_title": {"type": ["string", "null"]},
+    "project_id": {"type": ["string", "null"]},
+    "project_title": {"type": ["string", "null"]},
+    "node_id": {"type": ["string", "null"]},
+    "message_id": {"type": ["string", "null"]},
+    "parent_id": {"type": ["string", "null"]},
+    "role": {"type": ["string", "null"]},
+    "create_time": {},
+    "record_class": {"type": "string"},
+    "source_class": {"enum": ["DIRECT_LIVE_CAPTURE", "DT_CLOSEOUT", "PERCEPTION_POINT", "OFFICIAL_EXPORT", "DERIVED_RECONSTRUCTION"]},
+    "content_text": {"type": "string"},
+    "content_sha256": {"type": "string", "pattern": "^[a-fA-F0-9]{64}$"},
+    "capture_agent": {"type": ["string", "null"]},
+    "source_locator": {"type": ["string", "null"]},
+    "movement_event_id": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}

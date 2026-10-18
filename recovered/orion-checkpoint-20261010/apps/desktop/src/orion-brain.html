@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Orion Live Brain — DT Desktop Suite</title>
+  <link rel="stylesheet" href="orion-brain.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header>
+    <div><p class="eyebrow">ORION BRAIN MAP</p><h1>ORION <span>LIVE BRAIN</span></h1></div>
+    <div class="live"><i id="live-dot"></i><b id="live-state">CONNECTING</b><small id="updated-at">—</small></div>
+  </header>
+  <main>
+    <section class="graph-card">
+      <div class="graph-head"><div><p class="label">WHAT ORION IS DOING RIGHT NOW</p><h2 id="current-title">Waiting for Orion…</h2></div><div id="current-kind">—</div></div>
+      <div id="compute-graph"><svg id="graph-lines"></svg><div id="graph-nodes"></div></div>
+      <div id="task-stats" class="metrics"></div>
+      <div id="activity-summary" class="status-box" aria-live="polite"></div>
+    </section>
+    <section class="side-stack">
+      <article id="node-detail"><p class="label">CHAPTER / TKE PLEDGE</p><h3 id="detail-title">Click any graph node</h3><div id="detail-owner"></div><div id="detail-tree"></div><pre id="detail-json">Select a node to inspect its live process lineage.</pre></article>
+      <article><p class="label">CREW HOUSE / ROLL CALL</p><div id="crew-house" class="status-box"></div></article>
+      <article><p class="label">FROZEN MOMENTS</p><div id="frozen-moments" class="feed"></div></article>
+      <article><p class="label">YOUR BOOK</p><div id="your-book" class="feed"></div></article>
+      <article><p class="label">RESEARCH OFFICE</p><div id="research-metrics" class="metrics small"></div><div id="hypotheses" class="feed"></div></article>
+      <article><p class="label">WHAT ORION LEARNED</p><div id="lessons" class="feed"></div></article>
+      <article><p class="label">WORK & EVIDENCE</p><div id="corpus" class="status-box"></div></article>
+    </section>    <section class="bottom-grid">
+      <article><p class="label">TEST BUILDS / GROWTH</p><div id="improvement"></div></article>
+      <article><p class="label">CONNECTED AI WORK</p><div id="closeout"></div></article>
+      <article><p class="label">ORION'S REACH / HARDWARE</p><div id="hardware"></div></article>
+    </section>
+  </main>
+  <footer>Directed operational graph · agent colors inherited from DT registry · click nodes to expand process lineage · no hidden chain-of-thought</footer>
+  <script src="orion-brain.js"></script>
+</body>
+</html>

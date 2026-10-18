@@ -1,0 +1,8 @@
+# Preserve byte-for-byte imported source, run receipts and generated diagrams.
+# The recoveries carry exact SHA-256 values of the original bytes; Git must
+# not normalize their newlines, encodings or binary formats.
+recovered/** -text
+runs/** -text
+visuals/** -text
+*.png binary
+*.ico binary

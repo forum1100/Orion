@@ -1,0 +1,1 @@
+{"status":"SUPERSEDED_INVALID_REPLAY_RECEIPT","reason":"Initial replay pack contained zero-byte run files; successful exits were not valid execution evidence.","superseded_by":"aggregate_replay_receipt_v2.json","correction_record":"REPLAY_CORRECTION_2026_09_10.md"}

@@ -1,0 +1,36 @@
+{
+  "status": "EXECUTED_PRIVATE_SOURCE_DIFF",
+  "counts": {
+    "MAY2026": {
+      "records": 476,
+      "conversations": 476,
+      "target_conversations": 13
+    },
+    "AUG2026": {
+      "records": 583,
+      "conversations": 583,
+      "target_conversations": 35
+    }
+  },
+  "overlap": {
+    "common_conversation_ids": 476,
+    "may_only": 0,
+    "aug_only": 107
+  },
+  "changed_conversation_count": 474,
+  "changed_target_conversation_count": 6,
+  "aggregate_node_deltas": {
+    "added": 247,
+    "removed": 24891,
+    "changed": 9007,
+    "current_node_changes": 15
+  },
+  "target_change_counts": {
+    "Sim Code phase correction": 0,
+    "DISTEL THEORY / DT RECURSIVE CONVERGENCE SIMULATION PACK": 1,
+    "black_hole": 2,
+    "Hawking": 6,
+    "propulsion_4d_gates": 1
+  },
+  "scientific_status": "PROVENANCE_ONLY_NOT_PHYSICAL_VALIDATION"
+}

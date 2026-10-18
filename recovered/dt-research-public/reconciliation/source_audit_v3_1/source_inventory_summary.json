@@ -1,0 +1,81 @@
+{
+  "schema": "DT_CLOSEOUT_ALL_SUBJECT_SOURCE_INVENTORY_v1",
+  "generated_at": "2026-09-09T06:21:30.003768+00:00",
+  "scope": "Generation-2 six verified working shards; all subjects; no later live or earlier export coverage asserted",
+  "shards": [
+    {
+      "file": "conversations-000.json",
+      "bytes": 31547213,
+      "sha256": "addb88ac28df78862ae2fcb170b1768d5e9efebe160fe4f839e4666ee0c98203",
+      "entries": 100,
+      "valid_conversations": 100,
+      "first_object_byte": 4,
+      "last_object_end": 31547211
+    },
+    {
+      "file": "conversations-001.json",
+      "bytes": 14050514,
+      "sha256": "008409f56c8c01af794c01fd185f0870a9db9ba15f5553ff6406b5a13fb75213",
+      "entries": 100,
+      "valid_conversations": 99,
+      "first_object_byte": 4,
+      "last_object_end": 14050512
+    },
+    {
+      "file": "conversations-002.json",
+      "bytes": 17155797,
+      "sha256": "a38328dbd634ad8ec86b06fff91a8a75810d1347222c9c7aacba371b01dbcf2e",
+      "entries": 100,
+      "valid_conversations": 100,
+      "first_object_byte": 4,
+      "last_object_end": 17155795
+    },
+    {
+      "file": "conversations-003.json",
+      "bytes": 14527223,
+      "sha256": "7c858ec8a2026480e8b48f6f8635b53bb879f01dd76a2507279cb080938a2ee4",
+      "entries": 100,
+      "valid_conversations": 99,
+      "first_object_byte": 4,
+      "last_object_end": 14527221
+    },
+    {
+      "file": "conversations-004.json",
+      "bytes": 31446551,
+      "sha256": "a26ecbb674537afe7310b200a6371a4ce733f9b97b940887aed2ecda0b1d581a",
+      "entries": 100,
+      "valid_conversations": 100,
+      "first_object_byte": 4,
+      "last_object_end": 31446549
+    },
+    {
+      "file": "conversations-005.json",
+      "bytes": 41917711,
+      "sha256": "9f280c784fad5761b8e2dbcd11da01b71d5063049190eb6fe59c43f83572a7bc",
+      "entries": 83,
+      "valid_conversations": 83,
+      "first_object_byte": 4,
+      "last_object_end": 41917709
+    }
+  ],
+  "counts": {
+    "valid_conversations": 581,
+    "mapping_nodes": 39394,
+    "selected_chain_nodes": 38030,
+    "offchain_nodes": 1364,
+    "observable_text_records": 32299,
+    "observable_text_utf8_bytes": 55486070,
+    "attachment_reference_occurrences": 2503,
+    "content_type:text": 29196,
+    "content_type:thoughts": 6512,
+    "content_type:reasoning_recap": 2703,
+    "content_type:none": 581,
+    "content_type:multimodal_text": 400,
+    "preserved_nonconversation_entries": 2,
+    "content_type:user_editable_context": 2
+  },
+  "graph_issue_count": 0,
+  "parent_zip_binding": "UNVERIFIED",
+  "source_payloads": "Existing source members referenced by exact byte span and hash; no duplicate payloads created",
+  "native_attachment_bytes": "NOT_CERTIFIED_BY_THIS_INDEX"
+}

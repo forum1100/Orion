@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "policy": {
+    "source_before_summary": true,
+    "preserve_failed_branches": true,
+    "reconstruction_must_not_impersonate_source": true,
+    "execution_before_execution_claim": true,
+    "readback_before_persistence_claim": true,
+    "causal_process_primary_reconstruction_unit": true,
+    "validation_requires_causal_provenance": true,
+    "message_graph_parentage_over_timestamp_proximity": true
+  },
+  "simulations": [
+    {
+      "simulation_id": "dt_recursive_convergence_2026_05_09_reconstruction",
+      "family": "recursive_convergence",
+      "status": "RECONSTRUCTED_EXECUTED_VALIDATED",
+      "source_class": "LATER_RECONSTRUCTION",
+      "entrypoint": "packs/dt_recursive_convergence_2026_05_09_reconstruction/simulation.py",
+      "requirements": "packs/dt_recursive_convergence_2026_05_09_reconstruction/requirements.txt",
+      "default_args": [
+        "--trials",
+        "3"
+      ],
+      "source_locators": [
+        "drive:1tRSme6ZtvUfAMSW4fwU43VsR3LFi1eNP"
+      ],
+      "includes_domain": [
+        "black_hole",
+        "AI_agency",
+        "prism_defense",
+        "biology",
+        "institutional",
+        "thermo_diffusion",
+        "quantum_threshold",
+        "lithium_BBN"
+      ]
+    },
+    {
+      "simulation_id": "dt_hawking_accessibility_historical",
+      "family": "hawking_accessibility",
+      "status": "VERBATIM_EXECUTED_CODE_RECOVERED_REPLAYED",
+      "source_class": "VERBATIM_EXECUTED_CODE_RECOVERED_FROM_CHATGPT_EXPORT",
+      "entrypoint": "packs/dt_hawking_accessibility_2026_05_07_recovered/replay.py",
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:hawking_accessibility_execution_chain"
+      ],
+      "requirements": null,
+      "default_args": [],
+      "preserves_causal_process": true
+    },
+    {
+      "simulation_id": "dt_persistence_laboratory_2026_05_recovered",
+      "family": "persistence_laboratory",
+      "status": "VERBATIM_EXECUTION_CELL_RECOVERED_REPLAYED_NUMERICALLY_EQUIVALENT",
+      "source_class": "VERBATIM_EXECUTION_CELL_RECOVERED_FROM_CHATGPT_EXPORT",
+      "entrypoint": "packs/dt_persistence_laboratory_2026_05_recovered/replay.py",
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:conversation:69fcc4b7-cf9c-83ea-8ff4-45499aecdb98:node:c642dbc9-a8bf-4373-8a53-adb39df771b4"
+      ],
+      "run_count": 1,
+      "preserves_causal_process": true,
+      "scientific_status": "TOY_SYNTHETIC_PERSISTENCE_MODEL_NOT_DOMAIN_VALIDATION",
+      "validation_residual": "synthetic_target_generator_is_explicitly_DT_favored; independent predictive validation not established"
+    },
+    {
+      "simulation_id": "dt_toy_1d_smoother_2026_05_recovered",
+      "family": "toy_1d_smoother",
+      "status": "VERBATIM_EXECUTION_CELLS_RECOVERED_REPLAYED",
+      "source_class": "VERBATIM_EXECUTION_CELLS_RECOVERED_FROM_CHATGPT_EXPORT",
+      "entrypoint": "packs/dt_toy_1d_smoother_2026_05_recovered/replay_run.py",
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:conversation:6a04b0a6-08ec-83ea-a887-cb63445a9cc7"
+      ],
+      "requirements": null,
+      "default_args": [
+        "--run",
+        "1"
+      ],
+      "preserves_causal_process": true,
+      "run_count": 3
+    },
+    {
+      "simulation_id": "dt_recursive_civilization_2026_05_recovered",
+      "family": "recursive_civilization",
+      "status": "VERBATIM_EXECUTION_CELLS_RECOVERED_CAUSAL_REPLAY_PARTIAL",
+      "source_class": "VERBATIM_EXECUTION_CELLS_RECOVERED_FROM_CHATGPT_EXPORT",
+      "entrypoint": "packs/dt_recursive_civilization_2026_05_recovered/replay_run.py",
+      "requirements": "packs/dt_recursive_civilization_2026_05_recovered/requirements.txt",
+      "default_args": [
+        "--run",
+        "2"
+      ],
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:conversation:69fce2ba-2dc8-83ea-8656-df7842cf038b"
+      ],
+      "run_count": 8,
+      "historical_failure_runs": [
+        1,
+        7
+      ],
+      "replay_successes": 6,
+      "replay_timeouts": [
+        1,
+        7
+      ],
+      "preserves_historical_failures": true,
+      "preserves_causal_process": true
+    },
+    {
+      "simulation_id": "dt_prism_defense_historical",
+      "family": "prism_defense",
+      "status": "BROAD_CANDIDATE_SET_FULLY_DISPOSITIONED_EXISTING_FAMILIES",
+      "source_class": "HISTORICAL_EXPORT_CANDIDATES_RECONCILED",
+      "entrypoint": null,
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:11_code_nodes_broad_match"
+      ],
+      "candidate_code_nodes": 11,
+      "promotion_block": null,
+      "disposition_report": "PRISM_CANDIDATE_DISPOSITION.md"
+    },
+    {
+      "simulation_id": "dt_agent_foundry_synthetic",
+      "family": "agent_foundry",
+      "status": "EXECUTED_SYNTHETIC_HISTORY_EXISTS",
+      "source_class": "DERIVED_RECONSTRUCTION",
+      "entrypoint": null,
+      "source_locators": []
+    },
+    {
+      "simulation_id": "dt_debate_resilience_2026_05_recovered",
+      "family": "debate_simulation",
+      "status": "VERBATIM_EXECUTION_CELLS_RECOVERED_REPLAY_PARTIAL",
+      "source_class": "VERBATIM_EXECUTION_CELLS_RECOVERED_FROM_CHATGPT_EXPORT",
+      "entrypoint": "packs/dt_debate_resilience_2026_05_recovered/replay_run.py",
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:conversation:6a012dda-2a50-83ea-b552-0cff43025f4c"
+      ],
+      "run_count": 4,
+      "historical_statuses": {
+        "running": 1,
+        "failed": 1,
+        "success": 2
+      },
+      "current_replay": {
+        "success": 3,
+        "timeout": 1
+      },
+      "preserves_causal_process": true,
+      "scientific_status": "TOY_SOCIAL_SYSTEMS_RESILIENCE_MODEL_NOT_POLICY_OR_SOCIAL_PROOF"
+    },
+    {
+      "simulation_id": "dt_blackhole_recursive_learning_2026_05_recovered",
+      "family": "blackhole_recursive_learning",
+      "status": "VERBATIM_EXECUTION_CELLS_RECOVERED_PORTABLE_REPLAY_TESTED",
+      "source_class": "VERBATIM_EXECUTION_CELLS_RECOVERED_FROM_CHATGPT_EXPORT",
+      "entrypoint": "packs/dt_blackhole_recursive_learning_2026_05_recovered/replay_run.py",
+      "requirements": "packs/dt_blackhole_recursive_learning_2026_05_recovered/requirements.txt",
+      "default_args": [
+        "--run",
+        "1"
+      ],
+      "source_locators": [
+        "historical_chatgpt_export:2026-05:blackhole_recursive_learning_execution_chain"
+      ],
+      "preserves_historical_failures": true,
+      "preserves_causal_process": true
+    }
+  ]
+}

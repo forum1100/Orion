@@ -1,0 +1,14 @@
+{
+  "schema": "DT_CLOSEOUT_G2_ASSET_REFERENCE_INDEX_v1",
+  "generated_at": "2026-09-09T06:12:40.442745+00:00",
+  "source": "All six verified Generation-2 working shards",
+  "asset_names_source": "conversation_asset_file_names.json",
+  "asset_names_sha256": "0df863488c022397d2165ddb471a18f619c7ccfad596312810275fabe2b62392",
+  "asset_names_entries": 941,
+  "unique_observable_asset_ids": 2208,
+  "observable_reference_occurrences": 2503,
+  "references_with_filename_entry": 917,
+  "references_without_filename_entry": 1291,
+  "native_bytes_verified": 0,
+  "note": "A filename match is not binary custody. Unresolved is not proof of absence. Hidden internal content is not extracted."
+}

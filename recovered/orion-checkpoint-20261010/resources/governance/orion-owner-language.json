@@ -1,0 +1,27 @@
+{
+  "schema": "orion-owner-language/0.1",
+  "effectiveDate": "2026-09-27",
+  "ownerFacingTerms": {
+    "agentsCollective": "Crew",
+    "agent": "TKE Pledge",
+    "agentIdentity": "Scroll Number",
+    "office": "Chapter",
+    "officeIdentity": "Chapter Number",
+    "agentRegistry": "Scroll Book",
+    "officeRegistry": "Chapter Book",
+    "eventLedger": "Orion History",
+    "checkpoint": "Save Point",
+    "gap": "Missing Piece",
+    "residual": "Unfinished Business",
+    "knownGoodBackup": "Safe Backup",
+    "historicalPerspective": "Frozen Moment",
+    "counterfactualTesting": "Replay Room",
+    "ownerModel": "Your Book",
+    "agentSystemView": "Crew House",
+    "selfModelView": "Brain Map",
+    "synthesisEngine": "Skill Builder"
+  },
+  "identityRules": {"scrollMeans":"who","chapterMeans":"where_or_what_office","scrollPersistsAcross":["restart","resurrection","migration","software_version","chapter_reassignment"],"chapterPersistsAcross":["vacancy","pledge_replacement"]},
+  "temporalRule": {"ownerLanguage":"Any given perspective can only be held accountable at that specific time. Afterwards time is frozen.","laterKnowledgeMayAttach":true,"laterKnowledgeMayRewritePastPerspective":false,"replayMustEnforceHistoricalKnowledgeCutoff":true},
+  "authorityRule": {"orionUsesOwnActorIdentity":true,"ownerRootControlsDadMode":true,"knowledgeDoesNotEqualAuthority":true}
+}

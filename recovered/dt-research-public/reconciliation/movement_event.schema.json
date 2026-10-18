@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DT Identity and Movement Event",
+  "type": "object",
+  "required": ["event_id", "entity_type", "entity_id", "event_type", "observed_at", "source_generation", "source_class"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 1},
+    "entity_type": {"enum": ["conversation", "message", "drive_file", "artifact"]},
+    "entity_id": {"type": "string", "minLength": 1},
+    "event_type": {"enum": ["CREATED", "OBSERVED", "MOVED", "RENAMED", "COPIED", "DERIVED", "EXPORTED", "INGESTED", "CANONICALIZED"]},
+    "observed_at": {"type": "string"},
+    "source_generation": {"type": "string", "minLength": 1},
+    "source_class": {"enum": ["VERBATIM", "SOURCE_FAITHFUL", "DERIVED", "RECONSTRUCTED", "METADATA_ONLY"]},
+    "previous_location": {"type": ["string", "null"]},
+    "new_location": {"type": ["string", "null"]},
+    "previous_title": {"type": ["string", "null"]},
+    "new_title": {"type": ["string", "null"]},
+    "content_hash_before": {"type": ["string", "null"]},
+    "content_hash_after": {"type": ["string", "null"]},
+    "same_payload": {"type": ["boolean", "null"]},
+    "perception_point_id": {"type": ["string", "null"]},
+    "evidence_locator": {"type": ["string", "null"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": true
+}

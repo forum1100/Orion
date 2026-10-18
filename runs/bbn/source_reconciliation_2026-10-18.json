@@ -1,0 +1,89 @@
+{
+  "conclusions": [
+    "Fitting exp(-Xi) to lithium target is numerical arithmetic, not a physical explanation.",
+    "The historical q and Xi are inconsistent with the stated sqrt(E) Gaussian integral over 0..1.",
+    "The May q*E*chi draft without window disagrees more strongly with Xi=1.23.",
+    "The Sept 8 actual AlterBBN successor's best preregistered triad reduces mass-7 ~29.7%, not 70.8%.",
+    "No full network integration of the original proposed DT operator demonstrated.",
+    "Window has no mapped BBN cosmic time/temperature; channel Xi values were hand-assigned."
+  ],
+  "not_coupled_bbn_network": true,
+  "not_original_historical_executable": true,
+  "observed_in_source_rate_trials": {
+    "ABC_minus_sum_percentage_points": 2.2113999999999976,
+    "historical_target_from_stock_using_assigned_xi_1_231": 1.596124433550901e-10,
+    "one_at_a_time_and_combinations_percent": {
+      "R17 +20%": -11.5453,
+      "R17/R27": -29.6204,
+      "R17/R27/R34": -29.728,
+      "R17/R34": -11.6801,
+      "R27 -20%": -20.222,
+      "R27/R34": -20.3595,
+      "R34 +20%": -0.1721
+    },
+    "single_A_B_C_sum_percent": -31.9394,
+    "triad_li7_h": 3.841190679596e-10,
+    "triad_reduction_percent_computed_from_reported_abundances": 29.727951581375333
+  },
+  "operator_consistency": {
+    "E_listed": 17.24,
+    "chi_listed": 1.36,
+    "integral_0_to_1": 0.2658674319838487,
+    "integral_required_for_listed_q": 0.2074475324078005,
+    "q_listed": 1.05,
+    "q_required_for_target_xi": 0.8192801480153575,
+    "status": "INCONSISTENT_PARAMETERIZATIONS_PRESERVED",
+    "window_center": 0.5,
+    "window_type": "Gaussian on UNMAPPED normalized time 0 to 1",
+    "window_width": 0.15,
+    "xi_from_may_draft_q_E_chi_without_window": 24.618720000000003,
+    "xi_implied_by_q_sqrtE_chi_window": 1.576383857375964
+  },
+  "original_surrogate": {
+    "baseline_li7_h": 5.38e-10,
+    "suppression_factor": 3.4212295362896734,
+    "survival_fraction": 0.2922925776808594,
+    "target_exponent_xi": 1.23,
+    "target_li7_h": 1.5725340679230238e-10
+  },
+  "run_class": "NEW_RECOMPUTATION_OF_RECOVERED_SOURCE_NUMBERS",
+  "source_assigned_channel_survival": [
+    {
+      "channel": "H",
+      "loss_fraction": 0.003992010656008516,
+      "remaining_fraction": 0.9960079893439915,
+      "xi_assigned": 0.004
+    },
+    {
+      "channel": "D",
+      "loss_fraction": 0.011928287138069482,
+      "remaining_fraction": 0.9880717128619305,
+      "xi_assigned": 0.012
+    },
+    {
+      "channel": "He4",
+      "loss_fraction": 0.007968085162939342,
+      "remaining_fraction": 0.9920319148370607,
+      "xi_assigned": 0.008
+    },
+    {
+      "channel": "Be7/Li7",
+      "loss_fraction": 0.707999568799236,
+      "remaining_fraction": 0.2920004312007641,
+      "xi_assigned": 1.231
+    }
+  ],
+  "sources": {
+    "actual_stock_successor": "https://github.com/forum1100/Distel-Theory-Research/blob/main/retests/BBN_ALTERBBN_EXECUTION_2026-09-08.md",
+    "corrected_audit": "https://docs.google.com/document/d/1cAG2YTMJXMLuFWZCsNzAAwDkNHeJyygnKVHH3PCMsTQ/edit",
+    "paper": "https://drive.google.com/file/d/1KgoT0DEBZym1cQGKhFwS1UO3MDVUE816/view"
+  },
+  "stock_alterbbn_v2_2_reported": {
+    "Be7_H": 5.179861834299e-10,
+    "D_H": 2.434823987112e-05,
+    "He3_H": 1.031143037369e-05,
+    "Li6_H": 1.072668319169e-14,
+    "Li7_H": 5.466171494978e-10,
+    "Yp": 0.2472892431214
+  }
+}

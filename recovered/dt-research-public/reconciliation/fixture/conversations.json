@@ -1,0 +1,1 @@
+﻿[{"id":"conv-1","title":"fixture","mapping":{"n1":{"parent":null,"message":{"id":"m1","author":{"role":"user"},"create_time":1,"content":{"parts":["alpha"]}}},"n2":{"parent":"n1","message":{"id":"m2","author":{"role":"assistant"},"create_time":2,"content":{"parts":["beta"]}}}}}]

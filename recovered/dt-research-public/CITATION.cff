@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this research architecture, please cite the repository and the specific version or commit used."
+title: "Distel Theory Research"
+type: software
+authors:
+  - family-names: Cutler
+    given-names: Thomas J.
+    alias: Thomas Distel
+repository-code: "https://github.com/forum1100/Distel-Theory-Research"
+url: "https://dt-operations-suite.thomasdistel.chatgpt.site"
+license: "NOASSERTION"
+abstract: "Public research architecture for Distel Theory (DT = DRO + DUCT), including equations, simulations, provenance, applications, proposals, visual explanations, falsification requirements, and preserved failed or rejected branches."
+keywords:
+  - Distel Theory
+  - Distel Relational Ontodynamics
+  - Distel Recursive Ontology
+  - Distel Universal Constraint Topology
+  - future accessibility
+  - recoverable continuity
+  - constraint topology
+  - falsification
+  - complex systems
